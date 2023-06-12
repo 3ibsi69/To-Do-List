@@ -31,9 +31,12 @@ list.addEventListener("click", function (e) {
     //edit
   } else if (e.target.tagName === "P") {
     let edit = prompt("Edit your task");
+    if (edit === "") {
+      alert("Please enter your edit");
+    }else{
     e.target.parentElement.firstChild.nodeValue = edit;
     savedata();
-  }
+  }}
 });
 
 //local storage
