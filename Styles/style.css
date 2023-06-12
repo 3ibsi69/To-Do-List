@@ -39,8 +39,8 @@
   margin-bottom: 25px;
 }
 input {
-  flex: 1; /*taati full width */
-  border: none;
+width: 100%;
+    border: none;
   outline: none;
   background: transparent;
   padding: 10px;
@@ -111,3 +111,4 @@ ul li p {
 ul li p:hover {
   color: rgb(12, 248, 12);
 }
+
